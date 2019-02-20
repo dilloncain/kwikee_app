@@ -1,0 +1,86 @@
+PODS:
+  - Alamofire (5.0.0.beta.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.39.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.39.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.39.0):
+    - FBSDKCoreKit
+  - Stripe (14.0.0)
+  - SwiftyJSON (4.2.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - FBSDKCoreKit (from `https://github.com/facebook/facebook-objc-sdk.git`, branch `master`)
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - Stripe
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Stripe
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+  FBSDKCoreKit:
+    :branch: master
+    :git: https://github.com/facebook/facebook-objc-sdk.git
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 8ab8a2b537ce94ff7ef9117df087f8c6d8f8c088
+    :git: https://github.com/Alamofire/Alamofire.git
+  FBSDKCoreKit:
+    :commit: 9c5fc38f8f12efb3917699c5befcc10305fcabda
+    :git: https://github.com/facebook/facebook-objc-sdk.git
+  SwiftyJSON:
+    :commit: 3f6f1d32df6e5f334593682b20bb829e48bffbee
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 2ef6d6c984c5d21c366e9b41a9ae7dfee2b67a44
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: 5aa4a666fe80c12621fb8d6214bfdbd18d3b5a88
+  FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
+  FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
+  Stripe: db29ad197c74aca6fb981e4e8355cf7ebd0fca5a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+
+PODFILE CHECKSUM: 1a46aabb9091c856a72fc0d894bc19e1ae807654
+
+COCOAPODS: 1.5.3
