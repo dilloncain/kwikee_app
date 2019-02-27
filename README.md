@@ -7,3 +7,5 @@ HTML, CSS, Javascript, Python and Swift. Project isn't complete and is a work in
 - Framework: Django
 - Login: Facebook Integration
 - Payment System: Stripe
+
+See requirements documentation.
